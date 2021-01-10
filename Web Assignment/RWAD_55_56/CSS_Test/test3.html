@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed Position</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+        body>div{
+            height: 100vh;
+            position: relative;
+        }
+        article{
+            position: absolute;
+            height: 242px;
+            width: 242px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 100%;
+        }
+        #one {
+            background-color: purple;
+        }
+        #two {
+            background-color: 	#1E90FF;
+        }
+        #three {
+            background-color: 	#DC143C;
+        }
+
+        nav{
+            color: white;
+            text-align: center;
+            margin-top: 50%;
+            transform: translate(0%, -50%);
+            font-size: 30px;
+        }
+        section{
+            width: 365px;
+            height: 365px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            z-index: 10;
+            transform: translate(-50%, -50%);
+            border-radius: 100%;
+        }
+        .c1 {
+            position: fixed;
+            height: 72%;
+            width: 72%;
+            border: 12px solid #A9A9A9;
+        }
+        .c2 {
+            position: fixed;
+            height: 92%;
+            width: 92%;
+            border: 12px solid 	#B8860B;
+        }
+
+
+ </style>
+</head>
+<body>
+
+    <section>
+        <article class="c1">
+            <article class="c2"></article>
+        </article>
+    </section>
+
+
+    <div>
+        <article id="one">
+            <nav>Hello</nav>
+        </article>
+    </div>
+    <div>
+        <article id="two">
+            <nav>Welcome To</nav>
+        </article>
+    </div>
+    <div>
+        <article id="three">
+            <nav>Institute <br>of <br>Software <br>Engineering</nav>
+        </article>
+    </div>
+
+</body>
+</html>
