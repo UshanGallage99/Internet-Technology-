@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Animation</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+       body {
+            overflow: hidden;
+        }
+        .sky {
+            background: url("assests/img/car_animation/sky.jpg");
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .road{
+            background: url("assests/img/car_animation/road.jpg");
+            width: 6000px;
+            height: 47%;
+            background-repeat: repeat;
+            position: absolute;
+            bottom: 0;
+            animation: building 10s infinite;
+        }
+        .building{
+            background: url("assests/img/car_animation/city.png");
+            width: 6000px;
+            height: 40%;
+            background-repeat: repeat;
+            position: absolute;
+            bottom: 46%;
+            animation: building 10s infinite;
+        }
+
+        .car img:first-child{
+            width: 300px;
+            position: absolute;
+            margin: auto;
+            top: 125px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        .car img:nth-child(2){
+            width: 50px;
+            position: absolute;
+            margin: auto;
+            top: 188PX;
+            bottom: 0;
+            right: 194PX;
+            left: 0;
+            animation: car 10s infinite;
+        }
+        .car img:nth-child(3){
+            width: 50px;
+            position: absolute;
+            margin: auto;
+            top: 188PX;
+            bottom: 0;
+            right: 0;
+            left: 174PX;
+            animation: car 10s infinite;
+        }
+        @keyframes building {
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-70%);
+            }
+        }
+        @keyframes car {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(2000deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="sky">
+    <div class="building"></div>
+    <div class="road"></div>
+    <div class="car">
+        <img src="assests/img/car_animation/car.png" alt="">
+        <img src="assests/img/car_animation/wheel.png" alt="">
+        <img src="assests/img/car_animation/wheel.png" alt="">
+    </div>
+</div>
+</body>
+</html>
