@@ -89,7 +89,7 @@
             top:1vh;
         }
         /*section 1...................................................*/
-        section>nav:nth-child(2){
+        section:nth-child(2)>nav:nth-child(2){
              display: flex;
              height: 94%;
              border: 1px solid green;
@@ -151,6 +151,16 @@
              margin:auto;
         }
         /*section 3.............................................................*/
+        section:nth-child(4)>nav:nth-child(2){
+            height: 94%;
+            border: 1px solid green;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div{
+            width:35%;
+            height:0%;
+            border: 1px solid green;
+            padding:10px;
+        }
 
     </style>
 </head>
@@ -213,7 +223,16 @@
     <nav>
         <p>Skills</p>
     </nav>
-
+    <nav>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+    </nav>
 </section>
 <section></section>
 <section></section>
