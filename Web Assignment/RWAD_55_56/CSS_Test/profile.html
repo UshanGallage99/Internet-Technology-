@@ -152,14 +152,47 @@
         }
         /*section 3.............................................................*/
         section:nth-child(4)>nav:nth-child(2){
+            position: relative;
             height: 94%;
             border: 1px solid green;
         }
         section:nth-child(4)>nav:nth-child(2)>div{
-            width:35%;
+            position: absolute;
+            width:0%;
             height:0%;
-            border: 1px solid green;
-            padding:10px;
+            border-radius: 25px;
+            background: #73AD21;
+            padding: 10px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:hover{
+            width: 35%;
+            cursor: pointer;
+            background: #73AD21;
+            transition: all 3s;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:nth-child(1){
+            top: 50px;
+            left: 20px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:nth-child(2){
+            top: 150px;
+            left: 20px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:nth-child(3){
+            top: 250px;
+            left: 20px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:nth-child(4){
+            top: 50px;
+            left: 750px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:nth-child(5){
+            top: 150px;
+            left: 750px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>div:nth-child(6){
+            top: 250px;
+            left: 750px;
         }
 
     </style>
@@ -224,14 +257,12 @@
         <p>Skills</p>
     </nav>
     <nav>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </nav>
 </section>
 <section></section>
