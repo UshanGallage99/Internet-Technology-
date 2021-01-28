@@ -18,7 +18,6 @@
         }
         section>nav:nth-child(1)>p{
             text-align: center;
-
         }
         /*header..................................................*/
         header{
@@ -94,11 +93,11 @@
              height: 94%;
              border: 1px solid green;
         }
-        section>nav:nth-child(2)>article:nth-child(1){
+        section:nth-child(2)>nav:nth-child(2)>article:nth-child(1){
             width:50%;
             border: 1px solid green;
         }
-        section>nav:nth-child(2)>article:nth-child(2){
+        section:nth-child(2)>nav:nth-child(2)>article:nth-child(2){
             width:50%;
             border: 1px solid green;
         }
@@ -108,55 +107,86 @@
              height: 100%;
              border: 1px solid green;
         }
-        section>nav>article:nth-child(1){
+        section:nth-child(3)>nav>article:nth-child(1){
             position: relative;
             width:50%;
             height:100%;
             border: 1px solid green;
         }
-        section>nav>article:nth-child(2){
+        section:nth-child(3)>nav>article:nth-child(2){
             position: relative;
             width:50%;
             height:100%;
             border: 1px solid green;
         }
-        section>nav>article>div{
+        section:nth-child(3)>nav>article>div{
             width:20%;
             height:3%;
             border: 1px solid green;
             padding:10px;
         }
-        section>nav>article>div:nth-child(2){
+        section:nth-child(3)>nav>article>div:nth-child(2){
              position: absolute;
              top:98px;
              left:30px;
              margin:auto;
         }
-        section>nav>article>div:nth-child(3){
+        section:nth-child(3)>nav>article>div:nth-child(3){
              position: absolute;
              top:200px;
              left:30px;
              margin:auto;
         }
-        section>nav>article>div:nth-child(4){
+        section:nth-child(3)>nav>article>div:nth-child(4){
              position: absolute;
              top:381px;
              left:30px;
              margin:auto;
         }
-        section>nav>article>div:nth-child(5){
+        section:nth-child(3)>nav>article>div:nth-child(5){
              position: absolute;
              top:529px;
              left:30px;
              margin:auto;
         }
+
         /*section 3.............................................................*/
         section:nth-child(4)>nav:nth-child(2){
             position: relative;
             height: 94%;
             border: 1px solid green;
         }
-        section:nth-child(4)>nav:nth-child(2)>div{
+        section:nth-child(4)>nav:nth-child(2)>article{
+            width: 45%;
+            height: 15%;
+            border: 3px solid orange;
+            position: absolute;
+
+        }
+        /*nav>article*/
+        .A_Skill{
+             left: 0px;
+        }
+        .B_Skill{
+            left: 50%;
+        }
+        .C_Skill{
+            left: 0px;
+            top: 90px;
+        }
+        .D_Skill{
+            left: 50%;
+            top: 90px;
+        }
+        .E_Skill{
+            left: 0px;
+            top: 180px;
+        }
+        .F_Skill{
+            left: 50%;
+            top: 180px;
+        }
+        section:nth-child(4)>nav:nth-child(2)>article>div{
             position: absolute;
             width:0%;
             height:0%;
@@ -164,41 +194,97 @@
             background: #73AD21;
             padding: 10px;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:hover{
-            width: 35%;
+        section:nth-child(4)>nav:nth-child(2)>article>div:hover{
+            width: 50%;
             cursor: pointer;
             background: #73AD21;
             transition: all 3s;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:nth-child(1){
-            top: 50px;
-            left: 20px;
+        /*Section 4.............................................................*/
+        #ushan{
+            width: 100px;
+            border: 10px solid green;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:nth-child(2){
-            top: 150px;
-            left: 20px;
+        section:nth-child(5)>nav:nth-child(2){
+            position: relative;
+            height: 94%;
+            border: 1px solid green;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:nth-child(3){
-            top: 250px;
-            left: 20px;
+        section:nth-child(5)>nav:nth-child(2)>article{
+            width: 45%;
+            height: 15%;
+            border: 3px solid orange;
+            position: absolute;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:nth-child(4){
-            top: 50px;
-            left: 750px;
+        .A_Assignment{
+            left: 0px;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:nth-child(5){
-            top: 150px;
-            left: 750px;
+        .B_Assignment{
+            left: 50%;
         }
-        section:nth-child(4)>nav:nth-child(2)>div:nth-child(6){
-            top: 250px;
-            left: 750px;
+        .C_Assignment{
+            left: 0px;
+            top: 90px;
         }
+        .D_Assignment{
+            left: 50%;
+            top: 90px;
+        }
+        .E_Assignment{
+            left: 0px;
+            top: 180px;
+        }
+        .F_Assignment{
+            left: 50%;
+            top: 180px;
+        }
+        #A_Circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: green;
 
+        }
+        #B_Circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: green;
+        }
+        #C_Circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: green;
+        }
+        #D_Circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: green;
+        }
+        #E_Circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: green;
+        }
+        #F_Circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: green;
+        }
+        section:nth-child(5)>nav:nth-child(2)>article>div{
+            display: inline-flex;
+        }
+        section:nth-child(5)>nav:nth-child(2)>article>p{
+            display: inline-flex;
+        }
     </style>
 </head>
 <body>
-<header>
+<header class="header" id="header">
     <nav>My Profile</nav>
     <nav>
         <ul>
@@ -211,7 +297,7 @@
         </ul>
     </nav>
 </header>
-<section>
+<section class="section_1" id="section_1">
     <nav>
         <p>About Me</p>
     </nav>
@@ -234,7 +320,7 @@
     </nav>
 
 </section>
-<section>
+<section class="section_2" id="section_2">
     <nav>
     <article>
         <h1>Education</h1>
@@ -257,16 +343,94 @@
         <p>Skills</p>
     </nav>
     <nav>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <article class="A_Skill">
+            <h3 id="A_Skill">Java</h3>
+            <div id="A_Bar"></div>
+        </article>
+        <article class="B_Skill">
+            <h3 id="B_Skill">Java</h3>
+            <div id="B_Bar"></div>
+        </article>
+        <article class="C_Skill">
+            <h3 id="C_Skill">Java</h3>
+            <div id="C_Bar"></div>
+        </article>
+        <article class="D_Skill">
+            <h3 id="D_Skill">Java</h3>
+            <div id="D_Bar"></div>
+        </article>
+        <article class="E_Skill">
+            <h3 id="E_Skill">Java</h3>
+            <div id="E_Bar"></div>
+        </article>
+        <article class="F_Skill">
+            <h3 id="F_Skill">Java</h3>
+            <div id="F_Bar"></div>
+        </article>
     </nav>
 </section>
-<section></section>
-<section></section>
+<section>
+    <nav>
+        <p>Assignment</p>
+    </nav>
+    <nav>
+        <article class="A_Assignment">
+            <div id="A_Circle" ></div>
+            <p id="A_tittle">Assignment 1</p>
+        </article>
+        <article class="B_Assignment">
+            <div id="B_Circle"></div>
+            <p id="B_tittle">Assignment 2</p>
+        </article>
+        <article class="C_Assignment">
+            <div id="C_Circle"></div>
+            <p id="C_tittle">Assignment 3</p>
+        </article>
+        <article class="D_Assignment">
+            <div id="D_Circle"></div>
+            <p id="D_tittle">Assignment 4</p>
+        </article>
+        <article class="E_Assignment">
+            <div id="E_Circle"></div>
+            <p id="E_tittle">Assignment 5</p>
+        </article>
+        <article class="F_Assignment">
+            <div id="F_Circle"></div>
+            <p id="F_tittle">Assignment 6</p>
+        </article>
+    </nav>
+</section>
+<section>
+    <nav>
+        <p>Projects</p>
+    </nav>
+    <nav>
+        <article class="A_project">
+            <div></div>
+            <p>Assignment 1</p>
+        </article>
+        <article class="B_Project">
+            <div></div>
+            <p>Assignment 2</p>
+        </article>
+        <article class="C_Project">
+            <div></div>
+            <p>Assignment 3</p>
+        </article>
+        <article class="D_Project">
+            <div></div>
+            <p>Assignment 4</p>
+        </article>
+        <article class="E_Project">
+            <div></div>
+            <p>Assignment 5</p>
+        </article>
+        <article class="F_Project">
+            <div></div>
+            <p>Assignment 6</p>
+        </article>
+    </nav>
+</section>
 <section></section>
 <footer>
     <nav>
