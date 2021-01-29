@@ -54,7 +54,7 @@
             position: relative;
         }
         footer>nav:nth-child(1){
-               display: flex;
+             display: flex;
              height: 85%;
              border: 1px solid green;
         }
@@ -65,12 +65,8 @@
         footer>nav>article{
             position: relative;
         }
-        footer>nav>article:nth-child(1){
-            width:50%;
-            border: 1px solid green;
-        }
-        footer>nav>article:nth-child(2){
-            width:50%;
+        .social {
+            width: 100%;
             border: 1px solid green;
         }
         footer>nav>article>div:nth-child(2){
@@ -201,10 +197,6 @@
             transition: all 3s;
         }
         /*Section 4.............................................................*/
-        #ushan{
-            width: 100px;
-            border: 10px solid green;
-        }
         section:nth-child(5)>nav:nth-child(2){
             position: relative;
             height: 94%;
@@ -281,6 +273,130 @@
         section:nth-child(5)>nav:nth-child(2)>article>p{
             display: inline-flex;
         }
+        /*Section 5.............................................................*/
+        section:nth-child(6)>nav:nth-child(2){
+            position: relative;
+            height: 94%;
+            border: 1px solid green;
+        }
+        section:nth-child(6)>nav:nth-child(2)>article{
+            width: 15%;
+            height: 40%;
+            border: 3px solid orange;
+            position: absolute;
+        }
+        .A_project{
+            left: 10%;
+            top: 2%;
+        }
+        .B_Project{
+            left: 43%;
+            top: 2%;
+        }
+        .C_Project{
+            right: 10%;
+            top: 2%;
+        }
+        .D_Project{
+            left: 43%;
+            top: 53%;
+        }
+        .E_Project{
+            left: 10%;
+            top: 53%;
+        }
+        .F_Project{
+            right: 10%;
+            top: 53%;
+        }
+        section:nth-child(6)>nav:nth-child(2)>article>p{
+            position: absolute;
+            height: 12%;
+            margin: auto;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            border:1px solid black;
+        }
+        /*Section 6.............................................................*/
+        section:nth-child(7)>nav:nth-child(2){
+            display: flex;
+            position: relative;
+            height: 94%;
+            border: 1px solid green;
+        }
+        .A_Contact{
+            width: 70%;
+            height: 100%;
+            border: 1px solid #73AD21;
+            position: relative;
+
+        }
+        .B_Contact{
+            width: 30%;
+            height: 100%;
+            border: 1px solid #73AD21;
+            position: relative;
+        }
+        section:nth-child(7)>nav:nth-child(2)>article>p{
+            position: absolute;
+        }
+        #name{
+            left: 5%;
+            top: 30%;
+        }
+        #email{
+            left: 5%;
+            top: 38%;
+        }
+        #mobile{
+            left: 5%;
+            top: 46%;
+        }
+        #subject{
+            left: 5%;
+            top: 54%;
+        }
+        #message{
+            left: 5%;
+            top: 62%;
+        }
+        /*button*/
+        #submit{
+            position: absolute;
+            right: 13%;
+            top: 90%;
+        }
+        #reset{
+            position: absolute;
+            right: 5%;
+            top: 90%;
+        }
+        /*picture*/
+        #C_Contact{
+            width: 100%;
+            height: 27%;
+            border: 1px solid #73AD21;
+            position: absolute;
+        }
+        /*left 3*/
+        section:nth-child(7)>nav:nth-child(2)>article>div{
+            width: 100%;
+            height: calc(100%/3);
+            position: absolute;
+            border: 1px solid #73AD21;
+        }
+        .mymobile{
+
+        }
+        .myemail{
+            top: calc((100%/3)*1);
+        }
+        .address{
+            top: calc((100%/3)*2);
+        }
+
     </style>
 </head>
 <body>
@@ -407,46 +523,64 @@
     <nav>
         <article class="A_project">
             <div></div>
-            <p>Assignment 1</p>
+            <p>Project 1</p>
         </article>
         <article class="B_Project">
             <div></div>
-            <p>Assignment 2</p>
+            <p>Project 2</p>
         </article>
         <article class="C_Project">
             <div></div>
-            <p>Assignment 3</p>
+            <p>Project 3</p>
         </article>
         <article class="D_Project">
             <div></div>
-            <p>Assignment 4</p>
+            <p>Project 4</p>
         </article>
         <article class="E_Project">
             <div></div>
-            <p>Assignment 5</p>
+            <p>Project 5</p>
         </article>
         <article class="F_Project">
             <div></div>
-            <p>Assignment 6</p>
+            <p>Project 6</p>
         </article>
     </nav>
 </section>
-<section></section>
-<footer>
+<section>
     <nav>
-        <article>
-            <div>
+        <p>Contact Me</p>
+    </nav>
+    <nav>
+        <article class="B_Contact">
+            <div class="mymobile">
                 <img src="">
-                <img src="">
-                <img src="">
-            </div>
-            <div>
-                <p>No:01, Thuduwegoda, Hikkaduwa,<br>Galle, Sri Lanka </p>
                 <p>+(94)770500992</p>
+            </div>
+            <div class="myemail">
+                <img src="">
                 <p> <a href="http://ushansanu@gmail.com/">ushansanu@gmail.com</a></p>
             </div>
+            <div class="address">
+                <img src="">
+                <p>No:01, Thuduwegoda, Hikkaduwa,<br>Galle, Sri Lanka </p>
+            </div>
         </article>
-        <article>
+        <article class="A_Contact">
+            <div id="C_Contact"></div>
+            <p id="name">Name :</p>
+            <p id="email">Email :</p>
+            <p id="mobile">Mobile :</p>
+            <p id="subject">Subject :</p>
+            <p id="message">Message :</p>
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+        </article>
+    </nav>
+</section>
+<footer>
+    <nav>
+        <article class="social">
             <div><p>Keep In Touch</p></div>
             <div>
                 <img src="">
