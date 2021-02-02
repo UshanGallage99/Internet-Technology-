@@ -5,6 +5,9 @@
     <title>Ushan Gallage</title>
     <link href="assests/css/normalize.css" rel="stylesheet">
     <style>
+        body {
+           /* overflow: hidden;*/
+        }
         html {
             scroll-behavior: smooth;
         }
@@ -18,6 +21,14 @@
         }
         section>nav:nth-child(1)>p{
             text-align: center;
+        }
+        .massege_icon{
+            width: 50px;
+            height: 10px;
+            position: fixed;
+            background: #A0522D;
+            left: 50%;
+            top: 50%;
         }
         /*header..................................................*/
         header{
@@ -84,18 +95,35 @@
             top:1vh;
         }
         /*section 1...................................................*/
+        #section1_img{
+            width: 50%;
+            position: absolute;
+            left: 23%;
+            top: 2%;
+            border-radius: 0;
+        }
         section:nth-child(2)>nav:nth-child(2){
              display: flex;
              height: 94%;
              border: 1px solid green;
         }
         section:nth-child(2)>nav:nth-child(2)>article:nth-child(1){
-            width:50%;
+            width:40%;
             border: 1px solid green;
+            position: relative;
         }
         section:nth-child(2)>nav:nth-child(2)>article:nth-child(2){
-            width:50%;
+            width:60%;
             border: 1px solid green;
+        }
+        #para_one{
+            line-height: 1.6;
+            font-size: 17px;
+            padding-top: 20px;
+        }
+        #para_two{
+            line-height: 1.6;
+            font-size: 17px;
         }
         /*section 2...................................................*/
         section:nth-child(3)>nav{
@@ -115,37 +143,226 @@
             height:100%;
             border: 1px solid green;
         }
-        section:nth-child(3)>nav>article>div{
-            width:20%;
-            height:3%;
-            border: 1px solid green;
-            padding:10px;
+        .e_school{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 62px;
         }
-        section:nth-child(3)>nav>article>div:nth-child(2){
-             position: absolute;
-             top:98px;
-             left:30px;
-             margin:auto;
+        .e_icbt{
+            width:100%;
+            height: 25%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 200px;
         }
-        section:nth-child(3)>nav>article>div:nth-child(3){
-             position: absolute;
-             top:200px;
-             left:30px;
-             margin:auto;
+        .e_ijse{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 371px;
         }
-        section:nth-child(3)>nav>article>div:nth-child(4){
-             position: absolute;
-             top:381px;
-             left:30px;
-             margin:auto;
+        .e_ousl{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 508px;
         }
-        section:nth-child(3)>nav>article>div:nth-child(5){
-             position: absolute;
-             top:529px;
-             left:30px;
-             margin:auto;
+        /*edu_year*/
+        #e_school{
+            width: 88px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
         }
-
+        #e_icbt{
+            width: 88px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        #e_ijse{
+            width: 110px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        #e_ousl{
+            width: 110px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        /*edu_line*/
+        #sch_line{
+            position: absolute;
+            width: 85%;
+            top: 115px;
+            left: 50px;
+        }
+        #icbt_line{
+            position: absolute;
+            width: 85%;
+            top:145px;
+            left: 50px;
+        }
+        #ijse_line{
+            position: absolute;
+            width: 85%;
+            top: 115px;
+            left: 50px;
+        }
+        #ousl_line{
+            position: absolute;
+            width: 85%;
+            top: 115px;
+            left: 50px;
+        }
+        /*edu_p*/
+        #e_schoolA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #e_icbtA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #e_icbtB{
+            position: absolute;
+            top: 90px;
+            left: 30px;
+        }
+        #e_ijseA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #e_ouslA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        /*ex*/
+        .ex_one{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 62px;
+        }
+        .ex_two{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 200px;
+        }
+        .ex_three{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 371px;
+        }
+        .ex_four{
+            width:100%;
+            height: 20%;
+            border: 2px solid #73AD21;
+            position: absolute;
+            top: 508px;
+        }
+        /*ex_year*/
+        #ex_one{
+            width: 88px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        #ex_two{
+            width: 88px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        #ex_three{
+            width: 110px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        #ex_four{
+            width: 110px;
+            border:2px solid #73AD21;
+            padding: 8px;
+            font-size: 18px;
+            position: absolute;
+            left: 50px;
+        }
+        /*ex_line*/
+        #ex_one_line{
+            position: absolute;
+            width: 85%;
+            top: 115px;
+            left: 50px;
+        }
+        #ex_two_line{
+            position: absolute;
+            width: 85%;
+            top:115px;
+            left: 50px;
+        }
+        #ex_three_line{
+            position: absolute;
+            width: 85%;
+            top: 115px;
+            left: 50px;
+        }
+        #ex_four_line{
+            position: absolute;
+            width: 85%;
+            top: 115px;
+            left: 50px;
+        }
+        /*edu_p*/
+        /*#ex{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #e_icbtA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #e_ijseA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #e_ouslA{
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }*/
         /*section 3.............................................................*/
         section:nth-child(4)>nav:nth-child(2){
             position: relative;
@@ -155,16 +372,17 @@
         section:nth-child(4)>nav:nth-child(2)>article{
             width: 45%;
             height: 15%;
-            border: 3px solid orange;
+            border: 1px solid orange;
             position: absolute;
-
         }
         /*nav>article*/
         .A_Skill{
              left: 0px;
+            top: 0px;
         }
         .B_Skill{
             left: 50%;
+            top: 0px;
         }
         .C_Skill{
             left: 0px;
@@ -176,11 +394,11 @@
         }
         .E_Skill{
             left: 0px;
-            top: 180px;
+            top: 70%;
         }
         .F_Skill{
             left: 50%;
-            top: 180px;
+            top: 70%;
         }
         section:nth-child(4)>nav:nth-child(2)>article>div{
             position: absolute;
@@ -412,26 +630,25 @@
             <li>Contact</li>
         </ul>
     </nav>
+    <!--<img src="assests/img/profile/ushangallage.png">-->
 </header>
 <section class="section_1" id="section_1">
     <nav>
         <p>About Me</p>
     </nav>
     <nav>
-          <article></article>
           <article>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Accusamus ad aspernatur commodi consectetur cum cumque
-                  debitis doloremque dolorum excepturi facilis, modi
-                  porro provident quasi rem sed sit veniam voluptas voluptatem.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Accusamus ad aspernatur commodi consectetur cum cumque
-                  debitis doloremque dolorum excepturi facilis, modi
-                  porro provident quasi rem sed sit veniam voluptas voluptatem.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Accusamus ad aspernatur commodi consectetur cum cumque
-                  debitis doloremque dolorum excepturi facilis, modi
-                  porro provident quasi rem sed sit veniam voluptas voluptatem.</p>
+              <img id="section1_img" src="assests/img/profile/section2.jpg">
+          </article>
+          <article>
+              <p id="para_one">I am Ushan Gallage, a Software Engineering student from Galle Sri Lanka.</p>
+              <p id="para_two">My school was Mahinda College.
+              I am currently following the GDSE course at IJSE and also reading my Bachelor of Software Engineering degree
+              at Open University of Sri Lanka.
+              I like to learn what I didnt know and already I have learned a lot of things using the internet and
+                   also can work with a team for any purpose.
+                  I like to work-friendly with clients and also hope to keep trust of people about me.</p>
+
           </article>
     </nav>
 
@@ -440,17 +657,50 @@
     <nav>
     <article>
         <h1>Education</h1>
-        <div>2005-2018</div>
-        <div>2019-2020</div>
-        <div>2020-Present</div>
-        <div>2020-Present</div>
+        <div class="e_school">
+            <p id="e_school">2005-2018</p>
+            <p id="e_schoolA">Mahinda College Galle</p>
+            <hr id="sch_line">
+        </div>
+        <div class="e_icbt">
+            <p id="e_icbt">2019-2020</p>
+            <p id="e_icbtA">Diploma in IT, ICBT Campus</p>
+            <p id="e_icbtB">Diploma in English, ICBT Campus</p>
+            <hr id="icbt_line">
+        </div>
+        <div class="e_ijse">
+            <p id="e_ijse">2020-Present</p>
+            <p id="e_ijseA">Graduated Diploma in Software Engineering, IJSE</p>
+            <hr id="ijse_line">
+        </div>
+        <div class="e_ousl">
+            <p id="e_ousl">2020-Present</p>
+            <p id="e_ouslA">Bacholer of Software Engineering, Open University Sri Lanka</p>
+            <hr id="ousl_line">
+        </div>
     </article>
     <article>
         <h1>Experience</h1>
-        <div>----</div>
-        <div>----</div>
-        <div>----</div>
-        <div>----</div>
+        <div class="ex_one">
+            <p id="ex_one">-----</p>
+            <p></p>
+            <hr id="ex_one_line">
+        </div>
+        <div class="ex_two">
+            <p id="ex_two">-----</p>
+            <p></p>
+            <hr id="ex_two_line">
+        </div>
+        <div class="ex_three">
+            <p id="ex_three">-----</p>
+            <p></p>
+            <hr id="ex_three_line">
+        </div>
+        <div class="ex_four">
+            <p id="ex_four">-----</p>
+            <p></p>
+            <hr id="ex_four_line">
+        </div>
     </article>
     </nav>
 </section>
@@ -594,5 +844,6 @@
         <p>Copyright © Reserved 2020 Ushan Gallage</p>
     </nav>
 </footer>
+<nav class="massege_icon"></nav>
 </body>
 </html>
