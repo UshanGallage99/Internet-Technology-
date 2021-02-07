@@ -17,18 +17,28 @@
         section>nav:nth-child(1){
             position: relative;
             height: 6%;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
         }
         section>nav:nth-child(1)>p{
             text-align: center;
         }
         .massege_icon{
-            width: 50px;
-            height: 10px;
+            width: 80px;
+            height: 80px;
             position: fixed;
-            background: #A0522D;
-            left: 50%;
-            top: 50%;
+            left: 92%;
+            top: 83%;
+        }
+        #img_float{
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+        }
+        #img_float:hover{
+            width: 85px;
+            height: 85px;
+            cursor: pointer;
+            transition: 0.5s;
         }
         /*header..................................................*/
         header{
@@ -56,9 +66,90 @@
             display: inline;
             padding: 20px;
         }
+        #header_img{
+            position: absolute;
+            right: -41%;
+            top: -7%;
+            width: 120%;
+
+        }
+        #hello_i_am{
+            position: absolute;
+            left: 10%;
+            top: 25%;
+            font-size: 33px;
+        }
+        #ushan_gallage{
+            position: absolute;
+            left: 10%;
+            top: 33%;
+            font-size: 40px;
+        }
+        #software_engineer{
+            position: absolute;
+            left: 10%;
+            top: 45%;
+            font-size: 25px;
+        }
+        #img_linkedln_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 10%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_linkedln_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_github_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 15%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_github_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_fiverr_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 20%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_fiverr_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_hackerank_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 25%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_hackerank_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
         /*footer..........................................................*/
         footer{
-            height: 40vh;
+            height: 30vh;
             border: 1px solid red;
         }
         footer>nav{
@@ -66,24 +157,20 @@
         }
         footer>nav:nth-child(1){
              display: flex;
-             height: 85%;
-             border: 1px solid green;
+             height: 80%;
+             /*border: 1px solid green;*/
         }
         footer>nav:nth-child(2){
-             height: 15%;
-             border: 1px solid green;
+             height: 20%;
+            background: dimgrey;
+             /*border: 1px solid green;*/
         }
         footer>nav>article{
             position: relative;
         }
         .social {
             width: 100%;
-            border: 1px solid green;
-        }
-        footer>nav>article>div:nth-child(2){
-            position: absolute;
-            left:15%;
-            top:15%;
+            /*border: 1px solid green;*/
         }
         footer>nav>article>div:nth-child(2)>p{
             padding:3px;
@@ -94,42 +181,146 @@
             left:37vw;
             top:1vh;
         }
+        /*social media*/
+        #img_facebook{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 40%;
+            left: 38%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_facebook:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_instagrame{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 40%;
+            left: 43%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_instagrame:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_whatsapp{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 40%;
+            margin: auto;
+            left: 0%;
+            right: 0%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_whatsapp:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_linkedln{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 40%;
+            left: 53%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_linkedln:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_github{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 40%;
+            left: 58%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_github:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #follow_me{
+            position: absolute;
+            font-size: 26px;
+            left: 10%;
+            top: -5%;
+        }
         /*section 1...................................................*/
         #section1_img{
-            width: 50%;
+            width: 60%;
             position: absolute;
-            left: 23%;
-            top: 2%;
-            border-radius: 0;
+            left: 18%;
+            top: 4%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
         }
         section:nth-child(2)>nav:nth-child(2){
              display: flex;
              height: 94%;
-             border: 1px solid green;
+             /*border: 1px solid green;*/
         }
         section:nth-child(2)>nav:nth-child(2)>article:nth-child(1){
             width:40%;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
             position: relative;
         }
         section:nth-child(2)>nav:nth-child(2)>article:nth-child(2){
             width:60%;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
+            position: relative;
         }
         #para_one{
             line-height: 1.6;
-            font-size: 17px;
+            font-size: 20px;
             padding-top: 20px;
         }
         #para_two{
             line-height: 1.6;
             font-size: 17px;
         }
+        #getcv_btn{
+            position: absolute;
+            width: 15%;
+            height: 6%;
+            background: #73AD21;
+            border: 1px #73AD21;
+            left: 30%;
+            top: 75%;
+            cursor: pointer;
+        }
+        #hireme_btn{
+            position: absolute;
+            width: 15%;
+            height: 6%;
+            background: #73AD21;
+            border: 1px #73AD21;
+            left: 50%;
+            top: 75%;
+            cursor: pointer;
+        }
         /*section 2...................................................*/
+        #section_2{
+            height: 105.5vh;
+        }
         section:nth-child(3)>nav{
              display: flex;
              height: 100%;
-             border: 1px solid green;
+             /*border: 1px solid green;*/
         }
         section:nth-child(3)>nav>article:nth-child(1){
             position: relative;
@@ -303,6 +494,7 @@
         }
         #ex_four{
             width: 110px;
+            border:2px solid #73AD21;
             padding: 8px;
             font-size: 18px;
             position: absolute;
@@ -358,7 +550,7 @@
         section:nth-child(4)>nav:nth-child(2){
             position: relative;
             height: 94%;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
         }
         section:nth-child(4)>nav:nth-child(2)>article{
             width:35%;
@@ -367,7 +559,7 @@
         }
         /*nav>article*/
         .A_Skill{
-             left:8%;
+             left:15%;
             top: 10%;
         }
         .B_Skill{
@@ -375,7 +567,7 @@
             top: 10%;
         }
         .C_Skill{
-            left: 8%;
+            left: 15%;
             top: 35%;
         }
         .D_Skill{
@@ -383,32 +575,169 @@
             top: 35%;
         }
         .E_Skill{
-            left: 8%;
+            left: 15%;
             top: 60%;
         }
         .F_Skill{
             left: 58%;
             top: 60%;
         }
-        section:nth-child(4)>nav:nth-child(2)>article>div{
+        #A_BarA{
             position: absolute;
+            top: 67%;
+            width: 70%;
+            height: 0%;
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 9px;
+        }
+        #B_BarA{
+            position: absolute;
+            top: 67%;
+            width: 70%;
+            height: 0%;
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 9px;
+        }
+        #C_BarA{
+            position: absolute;
+            top: 67%;
+            width: 70%;
+            height: 0%;
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 9px;
+        }
+        #D_BarA{
+            position: absolute;
+            top: 67%;
+            width: 70%;
+            height: 0%;
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 9px;
+        }
+        #E_BarA{
+            position: absolute;
+            top: 67%;
+            width: 70%;
+            height: 0%;
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 9px;
+        }
+        #F_BarA{
+            position: absolute;
+            top: 67%;
+            width: 70%;
+            height: 0%;
+            border: 1px solid green;
+            border-radius: 25px;
+            padding: 9px;
+        }
+        #A_Bar{
+            position: absolute;
+            top: 67%;
+            left: 0%;
             width:0%;
             height:0%;
             border-radius: 25px;
             background: #73AD21;
             padding: 10px;
         }
-        section:nth-child(4)>nav:nth-child(2)>article>div:hover{
+        #B_Bar{
+            position: absolute;
+            top: 67%;
+            left: 0%;
+            width:0%;
+            height:0%;
+            border-radius: 25px;
+            background: #73AD21;
+            padding: 10px;
+        }
+        #C_Bar{
+            position: absolute;
+            top: 67%;
+            left: 0%;
+            width:0%;
+            height:0%;
+            border-radius: 25px;
+            background: #73AD21;
+            padding: 10px;
+        }
+        #D_Bar{
+            position: absolute;
+            top: 67%;
+            left: 0%;
+            width:0%;
+            height:0%;
+            border-radius: 25px;
+            background: #73AD21;
+            padding: 10px;
+        }
+        #E_Bar{
+            position: absolute;
+            top: 67%;
+            left: 0%;
+            width:0%;
+            height:0%;
+            border-radius: 25px;
+            background: #73AD21;
+            padding: 10px;
+        }
+        #F_Bar{
+            position: absolute;
+            top: 67%;
+            left: 0%;
+            width:0%;
+            height:0%;
+            border-radius: 25px;
+            background: #73AD21;
+            padding: 10px;
+        }
+        #A_Bar:hover{
             width: 70%;
             cursor: pointer;
             background: #73AD21;
             transition: all 3s;
         }
+        #B_Bar:hover{
+            width: 70%;
+            cursor: pointer;
+            background: #73AD21;
+            transition: all 3s;
+        }
+        #C_Bar:hover{
+            width: 70%;
+            cursor: pointer;
+            background: #73AD21;
+            transition: all 3s;
+        }
+        #D_Bar:hover{
+            width: 70%;
+            cursor: pointer;
+            background: #73AD21;
+            transition: all 3s;
+        }
+        #E_Bar:hover{
+            width: 70%;
+            cursor: pointer;
+            background: #73AD21;
+            transition: all 3s;
+        }
+        #F_Bar:hover{
+            width: 70%;
+            cursor: pointer;
+            background: #73AD21;
+            transition: all 3s;
+        }
+
         /*Section 4.............................................................*/
         section:nth-child(5)>nav:nth-child(2){
             position: relative;
             height: 94%;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
         }
         section:nth-child(5)>nav:nth-child(2)>article{
             width: 35%;
@@ -416,27 +745,27 @@
             position: absolute;
         }
         .A_Assignment{
-            left:8%;
+            left:20%;
             top: 10%;
         }
         .B_Assignment{
-            left: 58%;
+            left: 64%;
             top: 10%;
         }
         .C_Assignment{
-            left: 8%;
+            left: 20%;
             top: 35%;
         }
         .D_Assignment{
-            left: 58%;
+            left: 64%;
             top: 35%;
         }
         .E_Assignment{
-            left: 8%;
+            left: 20%;
             top: 60%;
         }
         .F_Assignment{
-            left: 58%;
+            left: 64%;
             top: 60%;
         }
         #A_Circle{
@@ -487,7 +816,7 @@
         section:nth-child(6)>nav:nth-child(2){
             position: relative;
             height: 94%;
-            border: 1px solid green;
+           /* border: 1px solid green;*/
         }
         section:nth-child(6)>nav:nth-child(2)>article{
             width: 15%;
@@ -561,19 +890,20 @@
             display: flex;
             position: relative;
             height: 94%;
-            border: 1px solid green;
+            /*border: 1px solid green;*/
         }
         .A_Contact{
             width: 70%;
-            height: 100%;
-            border: 1px solid #73AD21;
+            height: 97.5%;
+            /*border: 1px solid #73AD21;*/
             position: relative;
 
         }
         .B_Contact{
             width: 30%;
-            height: 100%;
-            border: 1px solid #73AD21;
+            height: 97.5%;
+            background:		#C0C0C0;
+            /*border: 1px solid #73AD21;*/
             position: relative;
         }
         section:nth-child(7)>nav:nth-child(2)>article>p{
@@ -614,7 +944,7 @@
         #C_Contact{
             width: 100%;
             height: 27%;
-            border: 1px solid #73AD21;
+            /*border: 1px solid #73AD21;*/
             position: absolute;
         }
         /*left 3*/
@@ -622,7 +952,7 @@
             width: 100%;
             height: calc(100%/3);
             position: absolute;
-            border: 1px solid #73AD21;
+            /*border: 1px solid #73AD21;*/
         }
         .mymobile{
 
@@ -724,7 +1054,14 @@
             <li>Contact</li>
         </ul>
     </nav>
-    <!--<img src="assests/img/profile/ushangallage.png">-->
+    <img id="header_img" src="assests/img/profile/ushangallage.png">
+    <P id="hello_i_am">Hello,I am</P>
+    <p id="ushan_gallage">Ushan Gallage</p>
+    <p id="software_engineer">Software Engineer</p>
+    <a href="https://www.linkedin.com/in/ushan-gallage-9a8b2719b/"><img id="img_linkedln_header" src="assests/img/contact/linkedin.png"></a>
+    <a href="https://github.com/UshanGallage99"><img id="img_github_header" src="assests/img/contact/github.png"></a>
+    <a href="https://github.com/UshanGallage99"><img id="img_fiverr_header" src="assests/img/contact/fiverr.png"></a>
+    <a href="https://github.com/UshanGallage99"><img id="img_hackerank_header" src="assests/img/contact/hackerrank.png"></a>
 </header>
 <section class="section_1" id="section_1">
     <nav>
@@ -742,7 +1079,8 @@
               I like to learn what I didnt know and already I have learned a lot of things using the internet and
                    also can work with a team for any purpose.
                   I like to work-friendly with clients and also hope to keep trust of people about me.</p>
-
+              <button id="getcv_btn">GET CV</button>
+              <button id="hireme_btn">HIRE ME</button>
           </article>
     </nav>
 
@@ -805,33 +1143,36 @@
     <nav>
         <article class="A_Skill">
             <h3 id="A_Skill">Java</h3>
+            <div id="A_BarA"></div>
             <div id="A_Bar"></div>
-            <div id="A_BarB"></div>
+
         </article>
         <article class="B_Skill">
             <h3 id="B_Skill">Java</h3>
+            <div id="B_BarA"></div>
             <div id="B_Bar"></div>
-           <!-- <div id="B_BarB"></div>-->
+
         </article>
         <article class="C_Skill">
             <h3 id="C_Skill">Java</h3>
+            <div id="C_BarA"></div>
             <div id="C_Bar"></div>
-            <!--<div id="C_BarB"></div>-->
+
         </article>
         <article class="D_Skill">
             <h3 id="D_Skill">Java</h3>
+            <div id="D_BarA"></div>
             <div id="D_Bar"></div>
-            <!--<div id="D_BarB"></div>-->
         </article>
         <article class="E_Skill">
             <h3 id="E_Skill">Java</h3>
+            <div id="E_BarA"></div>
             <div id="E_Bar"></div>
-            <!--<div id="E_BarB"></div>-->
         </article>
         <article class="F_Skill">
             <h3 id="F_Skill">Java</h3>
+            <div id="F_BarA"></div>
             <div id="F_Bar"></div>
-           <!-- <div id="F_BarB"></div>-->
         </article>
     </nav>
 </section>
@@ -905,7 +1246,7 @@
         <article class="B_Contact">
             <div class="mymobile">
                 <img id="img_mobile" src="assests/img/contact/phone.png">
-                <p id="c_mobile">+(94)770500992</p>
+                <a href="tel:+94770500992"><p id="c_mobile">+(94)770500992</p></a>
             </div>
             <div class="myemail">
                 <img id="img_email" src="assests/img/contact/email.png">
@@ -913,7 +1254,7 @@
             </div>
             <div class="address">
                 <img id="img_address" src="assests/img/contact/worldwide-location.png">
-                <p id="c_address">No:01, Thuduwegoda, Hikkaduwa,<br>Galle, Sri Lanka </p>
+                <a href="https://goo.gl/maps/6qrdT5bAQjXqTS4D9"><p id="c_address">No:01, Thuduwegoda, Hikkaduwa,<br>Galle, Sri Lanka </p></a>
             </div>
         </article>
         <article class="A_Contact">
@@ -938,12 +1279,13 @@
 <footer>
     <nav>
         <article class="social">
-            <div><p>Keep In Touch</p></div>
+            <div><p id="follow_me">Follow Me On:</p></div>
             <div>
-                <img src="">
-                <img src="">
-                <img src="">
-                <img src="">
+                <a href="https://www.facebook.com/ushan.sanu"><img id="img_facebook" src="assests/img/contact/facebook.png"></a>
+                <a href="https://www.instagram.com/ushan_sanu/"><img id="img_instagrame" src="assests/img/contact/instagram.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=94770500992"><img id="img_whatsapp" src="assests/img/contact/whatsapp.png"></a>
+                <a href="https://www.linkedin.com/in/ushan-gallage-9a8b2719b/"><img id="img_linkedln" src="assests/img/contact/linkedin.png"></a>
+                <a href="https://github.com/UshanGallage99"><img id="img_github" src="assests/img/contact/github.png"></a>
             </div>
         </article>
     </nav>
@@ -951,6 +1293,8 @@
         <p>Copyright © Reserved 2020 Ushan Gallage</p>
     </nav>
 </footer>
-<nav class="massege_icon"></nav>
+<nav class="massege_icon">
+            <img id="img_float" src="assests/img/profile/float2.png">
+</nav>
 </body>
 </html>
