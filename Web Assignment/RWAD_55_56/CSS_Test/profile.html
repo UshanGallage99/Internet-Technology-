@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <title>Ushan Gallage</title>
     <link href="assests/css/normalize.css" rel="stylesheet">
+    <link href="assests/fonts/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        * {
+            font-family: 'monospace';
+            color: black;
+        }
         body {
             overflow-x: hidden;
         }
@@ -12,7 +18,7 @@
             scroll-behavior: smooth;
         }
         ul{
-            list-style: none;
+            list-style:none;
         }
         section>nav:nth-child(1){
             position: relative;
@@ -43,11 +49,11 @@
         /*header..................................................*/
         header{
             height: 99.5vh;
-            border: 1px solid #ff0000;
+            /*border: 1px solid #ff0000;*/
         }
         section{
             height: 99.5vh;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
         header>nav:nth-child(1){
             position: absolute;
@@ -150,7 +156,7 @@
         /*footer..........................................................*/
         footer{
             height: 30vh;
-            border: 1px solid red;
+            /*border: 1px solid red;*/
         }
         footer>nav{
             position: relative;
@@ -256,8 +262,8 @@
         }
         #follow_me{
             position: absolute;
-            font-size: 26px;
-            left: 10%;
+            font-size: 24px;
+            left: 13%;
             top: -5%;
         }
         /*section 1...................................................*/
@@ -312,6 +318,9 @@
             left: 50%;
             top: 75%;
             cursor: pointer;
+        }
+        #aboutme{
+            font-size: 23px;
         }
         /*section 2...................................................*/
         #section_2{
@@ -547,6 +556,9 @@
             left: 30px;
         }*/
         /*section 3.............................................................*/
+        #skills{
+            font-size: 23px;
+        }
         section:nth-child(4)>nav:nth-child(2){
             position: relative;
             height: 94%;
@@ -587,7 +599,7 @@
             top: 67%;
             width: 70%;
             height: 0%;
-            border: 1px solid green;
+            border: 2px solid green;
             border-radius: 25px;
             padding: 9px;
         }
@@ -596,7 +608,7 @@
             top: 67%;
             width: 70%;
             height: 0%;
-            border: 1px solid green;
+            border: 2px solid green;
             border-radius: 25px;
             padding: 9px;
         }
@@ -605,7 +617,7 @@
             top: 67%;
             width: 70%;
             height: 0%;
-            border: 1px solid green;
+            border: 2px solid green;
             border-radius: 25px;
             padding: 9px;
         }
@@ -614,7 +626,7 @@
             top: 67%;
             width: 70%;
             height: 0%;
-            border: 1px solid green;
+            border: 2px solid green;
             border-radius: 25px;
             padding: 9px;
         }
@@ -623,7 +635,7 @@
             top: 67%;
             width: 70%;
             height: 0%;
-            border: 1px solid green;
+            border: 2px solid green;
             border-radius: 25px;
             padding: 9px;
         }
@@ -632,7 +644,7 @@
             top: 67%;
             width: 70%;
             height: 0%;
-            border: 1px solid green;
+            border: 2px solid green;
             border-radius: 25px;
             padding: 9px;
         }
@@ -644,7 +656,7 @@
             height:0%;
             border-radius: 25px;
             background: #73AD21;
-            padding: 10px;
+            padding: 11px;
         }
         #B_Bar{
             position: absolute;
@@ -654,7 +666,7 @@
             height:0%;
             border-radius: 25px;
             background: #73AD21;
-            padding: 10px;
+            padding: 11px;
         }
         #C_Bar{
             position: absolute;
@@ -664,7 +676,7 @@
             height:0%;
             border-radius: 25px;
             background: #73AD21;
-            padding: 10px;
+            padding: 11px;
         }
         #D_Bar{
             position: absolute;
@@ -674,7 +686,7 @@
             height:0%;
             border-radius: 25px;
             background: #73AD21;
-            padding: 10px;
+            padding: 11px;
         }
         #E_Bar{
             position: absolute;
@@ -684,7 +696,7 @@
             height:0%;
             border-radius: 25px;
             background: #73AD21;
-            padding: 10px;
+            padding: 11px;
         }
         #F_Bar{
             position: absolute;
@@ -694,7 +706,7 @@
             height:0%;
             border-radius: 25px;
             background: #73AD21;
-            padding: 10px;
+            padding: 11px;
         }
         #A_Bar:hover{
             width: 70%;
@@ -734,6 +746,9 @@
         }
 
         /*Section 4.............................................................*/
+        #assignment{
+            font-size: 23px;
+        }
         section:nth-child(5)>nav:nth-child(2){
             position: relative;
             height: 94%;
@@ -813,6 +828,9 @@
             font-size: 25px;
         }
         /*Section 5.............................................................*/
+        #projects{
+            font-size: 23px;
+        }
         section:nth-child(6)>nav:nth-child(2){
             position: relative;
             height: 94%;
@@ -886,6 +904,9 @@
 
         }
         /*Section 6.............................................................*/
+        #contactme{
+            font-size: 23px;
+        }
         section:nth-child(7)>nav:nth-child(2){
             display: flex;
             position: relative;
@@ -895,6 +916,7 @@
         .A_Contact{
             width: 70%;
             height: 97.5%;
+            background:		#D3D3D3;
             /*border: 1px solid #73AD21;*/
             position: relative;
 
@@ -1039,6 +1061,116 @@
             height: 100%;
 
         }
+        /* media quarries............................................................. */
+        @media all and (min-width: 768px) and (max-width: 1024px){
+              /*header..................................................*/
+        header{
+            height: 99.5vh;
+            /*border: 1px solid #ff0000;*/
+        }
+        section{
+            height: 99.5vh;
+            /*border: 1px solid red;*/
+        }
+        header>nav:nth-child(1){
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 15px;
+            padding:20px;
+        }
+        header>nav:nth-child(2){
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+        header>nav>ul>li{
+            display: inline;
+            padding: 20px;
+        }
+        #header_img{
+            position: absolute;
+            right: -41%;
+            top: -7%;
+            width: 120%;
+
+        }
+        #hello_i_am{
+            position: absolute;
+            left: 10%;
+            top: 25%;
+            font-size: 33px;
+        }
+        #ushan_gallage{
+            position: absolute;
+            left: 10%;
+            top: 33%;
+            font-size: 40px;
+        }
+        #software_engineer{
+            position: absolute;
+            left: 10%;
+            top: 45%;
+            font-size: 25px;
+        }
+        #img_linkedln_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 10%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_linkedln_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_github_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 15%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_github_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_fiverr_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 20%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_fiverr_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        #img_hackerank_header{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            top: 75%;
+            left: 25%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+        }
+        #img_hackerank_header:hover{
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        }
     </style>
 </head>
 <body>
@@ -1065,7 +1197,7 @@
 </header>
 <section class="section_1" id="section_1">
     <nav>
-        <p>About Me</p>
+        <p id="aboutme">About Me</p>
     </nav>
     <nav>
           <article>
@@ -1138,7 +1270,7 @@
 </section>
 <section>
     <nav>
-        <p>Skills</p>
+        <p id="skills">Skills</p>
     </nav>
     <nav>
         <article class="A_Skill">
@@ -1178,7 +1310,7 @@
 </section>
 <section>
     <nav>
-        <p>Assignment</p>
+        <p id="assignment">Assignment</p>
     </nav>
     <nav>
         <article class="A_Assignment">
@@ -1209,7 +1341,7 @@
 </section>
 <section>
     <nav>
-        <p>Projects</p>
+        <p id="projects">Projects</p>
     </nav>
     <nav>
         <article class="A_project">
@@ -1240,7 +1372,7 @@
 </section>
 <section>
     <nav>
-        <p>Contact Me</p>
+        <p id="contactme">Contact Me</p>
     </nav>
     <nav>
         <article class="B_Contact">
